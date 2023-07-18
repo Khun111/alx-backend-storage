@@ -1,2 +1,2 @@
-// delete row
-db.school.remove({name: 'Holberton'})
+// delete rows
+db.school.deleteMany({name: 'Holberton school'})
