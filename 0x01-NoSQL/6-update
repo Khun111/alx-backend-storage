@@ -1,0 +1,8 @@
+//update particular doc
+db.school.update({name: "Holberton"},
+{
+$inc {
+address: '972 Mission street'
+}
+}
+)
